@@ -76,7 +76,7 @@ elif mathStatement != 0 : print("mathStatement with 'modulo' is NOT 0")
 #Oppgave 4 og 5:
     
     
-chosenNumber = 5
+chosenNumber = 16540
 numberlist = [100,321,3432,4654,87865,786,7324,81231,9876,16540,1341,132422,12313,165464,13125,16564436]
 randomNumberFromList = random.choice(numberlist)
 if randomNumberFromList == chosenNumber : print("number is chosen by coder and will not be shown") 
