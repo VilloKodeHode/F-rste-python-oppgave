@@ -77,8 +77,7 @@ elif mathStatement != 0 : print("mathStatement with 'modulo' is NOT 0")
     
     
 chosenNumber = 5
-numberlist = [1,2,3,4,5,6,7,8,9,10]
-randomNumberFromList = random.randint(numberlist[0], len(numberlist)-1)
-if randomNumberFromList == chosenNumber : print("number is chosen by coder and will not be shown")
-elif (randomNumberFromList >=1) and (randomNumberFromList <= randomNumberFromList <=10) :
-    print("number from list is " + str(randomNumberFromList))
+numberlist = [100,321,3432,4654,87865,786,7324,81231,9876,16540,1341,132422,12313,165464,13125,16564436]
+randomNumberFromList = random.choice(numberlist)
+if randomNumberFromList == chosenNumber : print("number is chosen by coder and will not be shown") 
+else : print("number from list is " + str(randomNumberFromList))
